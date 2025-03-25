@@ -29,13 +29,17 @@ B = Backup - Backup the target
 
 
  Hyde core files 
-P|${HOME}/.config/hyde|config.toml|hyprland
-P|${HOME}/.config/hypr|hyde.conf animations.conf windowrules.conf keybindings.conf userprefs.conf monitors.conf|hyprland
-P|${HOME}/.config/hypr|nvidia.conf|hyprland nvidia-utils
-P|${HOME}/.config/hypr/themes|theme.conf wallbash.conf colors.conf|hyprland
-P|${HOME}/.local/state/hyde|hyprland.conf|hyprland
+O|${HOME}/.config/hyde|config.toml|hyprland
+S|${HOME}/.config/hyde|wallbash|hyprland
+P|${HOME}/.config/hypr|monitors.conf|hyprland
+O|${HOME}/.config/hypr|animations.conf hyde.conf hyprland.conf keybindings.conf userprefs.conf windowrules.conf|hyprland
+S|${HOME}/.config/hypr|animations|hyprland
+O|${HOME}/.config/hypr|nvidia.conf|hyprland nvidia-utils
 
-S|${HOME}/.config/hypr|hyprland.conf|hyprland
+O|${HOME}/.local/lib|hyde|hyprland
+O|${HOME}/.local/share|hyde|hyprland
+O|${HOME}/.local/state/hyde|hyprland.conf|hyprland
+
 S|${HOME}/.local|bin|hyprland
 S|${HOME}/.config|gtk-3.0|nwg-look
 S|${HOME}/.config|nwg-look|nwg-look
@@ -44,11 +48,6 @@ S|${HOME}|.gtkrc-2.0|nwg-look
 S|${HOME}/.config|Kvantum|kvantum
 S|${HOME}/.config|qt5ct|qt5ct
 S|${HOME}/.config|qt6ct|qt6ct
-S|${HOME}/.config/hyde|wallbash|hyprland
-S|${HOME}/.config/hypr|animations|hyprland  
-
-O|${HOME}/.local/share|hyde|hyprland
-O|${HOME}/.local/lib|hyde|hyprland
 
  Editor 
 P|${HOME}/.config/Code - OSS/User|settings.json|code
@@ -56,21 +55,25 @@ P|${HOME}/.config/Code/User|settings.json|visual-studio-code-bin
 P|${HOME}/.config/VSCodium/User|settings.json|vscodium
 
  Bar 
-P|${HOME}/.config/waybar|config.ctl|waybar
-S|${HOME}/.config/waybar|modules config.jsonc theme.css style.css|waybar
+O|${HOME}/.config/waybar|config.ctl|waybar
+O|${HOME}/.config/waybar|modules config.jsonc theme.css style.css|waybar
 
  Terminal 
 P|${HOME}/.config|lsd|lsd
 P|${HOME}/.config|fastfetch|fastfetch
 O|${HOME}/.local/share/fastfetch/presets|hyde|fastfetch
 
-S|${HOME}/.config/kitty|hyde.conf theme.conf|kitty
-P|${HOME}/.config/kitty|kitty.conf|kitty
+O|${HOME}/.config/kitty|hyde.conf kitty.conf theme.conf|kitty
 
  Shell 
 P|${HOME}/.config|fish|fish
-P|${HOME}|.zshrc .hyde.zshrc .p10k.zsh|zsh zsh-theme-powerlevel10k pokego-bin
-S|${HOME}|.zshenv|zsh zsh-theme-powerlevel10k
+O|${HOME}|.hyde.zshrc .p10k.zsh .zshenv .zshrc|zsh zsh-theme-powerlevel10k
+
+ Git 
+O|${HOME}|.gitconfig|git
+O|${HOME}/.ssh|config|git openssh
+O|${HOME}/Projects/soloer|.gitconfig|git
+O|${HOME}/Projects/tmk|.gitconfig|git
 
  File Explorer 
 P|${HOME}/.local/state|dolphinstaterc|dolphin
@@ -103,9 +106,9 @@ P|${HOME}/.config|rofi|rofi
 S|${HOME}/.config|wlogout|wlogout
 
  Lock Screen 
-S|${HOME}/.config|swaylock|swaylock-effects
-P|${HOME}/.config/hypr|hyprlock.conf|hyprlock
-S|${HOME}/.config/hypr|hyprlock|hyprlock
+O|${HOME}/.config|swaylock|swaylock-effects
+O|${HOME}/.config/hypr|hyprlock.conf|hyprlock
+O|${HOME}/.config/hypr|hyprlock|hyprlock
 
  Idle daemon 
-P|${HOME}/.config/hypr|hypridle.conf|hypridle
+O|${HOME}/.config/hypr|hypridle.conf|hypridle

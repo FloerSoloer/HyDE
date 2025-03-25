@@ -2,7 +2,7 @@
 pipewire                                               # audio/video server
 pipewire-alsa                                          # pipewire alsa client
 pipewire-audio                                         # pipewire audio client
-pipewire-jack                                          # pipewire jack client
+#cachy# pipewire-jack                                          # pipewire jack client
 pipewire-pulse                                         # pipewire pulseaudio client
 gst-plugin-pipewire                                    # pipewire gstreamer client
 wireplumber                                            # pipewire session manager
@@ -40,6 +40,7 @@ hyprsunset                                             # blue light filter
 # --------------------------------------------------- // Dependencies
 polkit-gnome                                           # authentication agent
 xdg-desktop-portal-hyprland                            # xdg desktop portal for hyprland
+xdg-desktop-portal-gtk
 pacman-contrib                                         # for system update check
 parallel                                               # for parallel processing
 jq                                                     # for json processing
@@ -66,17 +67,23 @@ dolphin                                                # kde file manager
 ark                                                    # kde file archiver
 unzip                                                  # extracting zip files
 vim                                                    # terminal text editor
-code                                                   # ide text editor
+helix
+# code                                                   # ide text editor
 nwg-displays                                           # monitor management utility
-fzf                                                    # Command-line fuzzy finder
 
 # --------------------------------------------------- // Shell
 eza|zsh                                                # file lister for zsh
+fd|zsh
+fzf|zsh
+fzf-tab-git|zsh
+oh-my-zsh-git|zsh                                      # Optional plugin manager for zsh
+ripgrep|zsh
+zoxide|zsh
 zsh-theme-powerlevel10k-git|zsh                        # theme for zsh
-pokego-bin|zsh                                        # display pokemon sprites in terminal (written GO)
+# pokego-bin|zsh                                        # display pokemon sprites in terminal (written GO)
 eza|fish                                               # file lister for fish
 starship|fish                                          # customizable shell prompt
-fastfetch                                              # system information fetch tool
+# fastfetch                                              # system information fetch tool
 
 # --------------------------------------------------- // HyDE
 hypridle                                               # idle daemon

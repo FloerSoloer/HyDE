@@ -1,0 +1,112 @@
+${cacheDir}/wallbash/helix.toml|${WALLBASH_SCRIPTS}/helix.sh
+# GENERAL ==============================
+warning = { fg = "#<wallbash_3xa8>" }
+error = { fg = "#<wallbash_4xa7>" }
+info = { fg = "#<wallbash_1xa8>" }
+hint = { fg = "#<wallbash_2xa9>" }
+diagnostic = { fg = "#<wallbash_txt1>" }
+
+# UI ==============================
+'ui.background' = { bg = "#<wallbash_pry1>" }
+'ui.window' = { fg = "#<wallbash_1xa4>" }
+'ui.gutter' = { bg = "#<wallbash_pry1>" }
+
+'ui.text' = { fg = "#<wallbash_txt1>" }
+'ui.text.focus' = { fg = "#<wallbash_4xa8>" }
+'ui.text.info' = { fg = "#<wallbash_txt1>" }
+
+'ui.cursor' = { fg = "#<wallbash_4xa8>" }
+'ui.cursor.primary' = { fg = "#<wallbash_4xa8>" }
+'ui.cursor.insert' = { fg = "#<wallbash_4xa8>" }
+'ui.cursor.select' = { fg = "#<wallbash_4xa8>" }
+'ui.cursor.match' = { fg = "#<wallbash_2xa6>" }
+
+'ui.selection' = { bg = "#<wallbash_2xa6>40" }
+'ui.selection.primary' = { bg = "#<wallbash_2xa6>40" }
+
+'ui.linenr' = { fg = "#<wallbash_2xa5>" }
+'ui.linenr.selected' = { fg = "#<wallbash_4xa8>" }
+
+'ui.virtual.ruler' = { bg = "#<wallbash_1xa4>" }
+'ui.virtual.whitespace' = { fg = "#<wallbash_2xa6>66" }
+
+'ui.statusline' = { fg = "#<wallbash_txt1>", bg = "#<wallbash_pry1>" }
+'ui.statusline.active' = { fg = "#<wallbash_4xa8>", bg = "#<wallbash_pry1>" }
+'ui.statusline.normal' = { fg = "#<wallbash_4xa8>" }
+'ui.statusline.insert' = { fg = "#<wallbash_2xa9>" }
+'ui.statusline.select' = { fg = "#<wallbash_3xa8>" }
+
+'ui.help' = { fg = "#<wallbash_txt1>", bg = "#<wallbash_pry1>" }
+'ui.highlight' = { bg = "#<wallbash_1xa2>" }
+'ui.menu' = { fg = "#<wallbash_txt1>", bg = "#<wallbash_pry1>" }
+'ui.menu.selected' = { fg = "#<wallbash_4xa8>", bg = "#<wallbash_1xa2>" }
+'ui.popup' = { bg = "#<wallbash_pry1>" }
+
+# SYNTAX HIGHLIGHTING ==============================
+'type' = { fg = "#<wallbash_3xa7>" }
+'type.builtin' = { fg = "#<wallbash_4xa8>" }
+'constructor' = { fg = "#<wallbash_1xa7>" }
+
+'constant' = { fg = "#<wallbash_3xa8>" }
+'constant.builtin' = { fg = "#<wallbash_4xa8>" }
+'constant.character.escape' = { fg = "#<wallbash_4xa9>" }
+'constant.numeric' = { fg = "#<wallbash_3xa8>" }
+
+'string' = { fg = "#<wallbash_2xa9>" }
+'string.regexp' = { fg = "#<wallbash_4xa9>" }
+'string.special' = { fg = "#<wallbash_2xa9>" }
+
+'comment' = { fg = "#<wallbash_2xa4>", modifiers = ["italic"] }
+'comment.line' = { fg = "#<wallbash_2xa4>" }
+'comment.block.documentation' = { fg = "#<wallbash_txt1>" }
+
+'variable' = { fg = "#<wallbash_txt1>" }
+'variable.builtin' = { fg = "#<wallbash_4xa7>" }
+'variable.parameter' = { fg = "#<wallbash_3xa9>" }
+
+'keyword' = { fg = "#<wallbash_4xa8>" }
+'keyword.control' = { fg = "#<wallbash_4xa8>" }
+'keyword.operator' = { fg = "#<wallbash_2xa8>" }
+'keyword.function' = { fg = "#<wallbash_4xa8>" }
+
+'operator' = { fg = "#<wallbash_2xa8>" }
+
+'function' = { fg = "#<wallbash_1xa8>" }
+'function.builtin' = { fg = "#<wallbash_4xa7>" }
+'function.method' = { fg = "#<wallbash_1xa8>" }
+
+'tag' = { fg = "#<wallbash_1xa8>" }
+
+'punctuation' = { fg = "#<wallbash_2xa6>" }
+'punctuation.bracket' = { fg = "#<wallbash_2xa6>" }
+'punctuation.delimiter' = { fg = "#<wallbash_2xa8>" }
+
+# MARKUP ==============================
+'markup.heading.1' = { fg = "#<wallbash_4xa7>" }
+'markup.heading.2' = { fg = "#<wallbash_3xa8>" }
+'markup.heading.3' = { fg = "#<wallbash_3xa7>" }
+'markup.heading.marker' = { fg = "#<wallbash_4xa9>" }
+
+'markup.link.url' = { fg = "#<wallbash_1xa7>" }
+'markup.link.text' = { fg = "#<wallbash_2xa9>" }
+
+'markup.bold' = { fg = "#<wallbash_4xa7>", modifiers = ["bold"] }
+'markup.italic' = { fg = "#<wallbash_4xa7>", modifiers = ["italic"] }
+
+'markup.raw' = { fg = "#<wallbash_2xa9>" }
+'markup.raw.block' = { fg = "#<wallbash_2xa9>" }
+
+# DIFF ==============================
+'diff.plus' = { fg = "#<wallbash_2xa9>" }
+'diff.minus' = { fg = "#<wallbash_4xa7>" }
+'diff.delta' = { fg = "#<wallbash_3xa7>" }
+
+[palette]
+wallbash_pry1 = "#<wallbash_pry1>"
+wallbash_txt1 = "#<wallbash_txt1>"
+wallbash_txt2 = "#<wallbash_txt2>"
+wallbash_1xa8 = "#<wallbash_1xa8>"
+wallbash_2xa9 = "#<wallbash_2xa9>"
+wallbash_3xa7 = "#<wallbash_3xa7>"
+wallbash_4xa7 = "#<wallbash_4xa7>"
+wallbash_4xa8 = "#<wallbash_4xa8>"

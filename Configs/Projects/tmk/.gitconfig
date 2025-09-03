@@ -1,0 +1,8 @@
+[user]
+	name = TMK04
+	email = floer.learner.01@gmail.com
+	signingkey = ~/.ssh/id_ed25519.4.pub
+
+[url "git_tmk:"]
+  insteadOf = git@github.com:
+  insteadOf = https://github.com/

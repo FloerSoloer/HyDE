@@ -1,7 +1,7 @@
 [user]
 	name = FloerSoloer
 	email = floer.solo.03@gmail.com
-	signingkey = ~/.ssh/id_ed25519.2.pub
+	signingKey = ~/.ssh/id_ed25519.2.pub
 
 [url "git_soloer:"]
   insteadOf = git@github.com:

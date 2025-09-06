@@ -29,20 +29,21 @@ B = Backup - Backup the target
 
 
  Hyde core files 
-P|${HOME}/.config/hyde|config.toml|hyprland
-P|${HOME}/.config/hypr|pyprland.toml shaders.conf workflows.conf animations.conf windowrules.conf keybindings.conf userprefs.conf monitors.conf|hyprland
-P|${HOME}/.config/hypr|nvidia.conf|hyprland nvidia-utils
-P|${HOME}/.config/hypr/themes|theme.conf wallbash.conf colors.conf|hyprland
+O|${HOME}/.config/hyde|config.toml|hyprland
+P|${HOME}/.config/hypr|pyprland.toml shaders.conf workflows.conf animations.conf|hyprland
+O|${HOME}/.config/hypr|keybindings.conf userprefs.conf monitors.conf windowrules.conf|hyprland
+O|${HOME}/.config/hypr|nvidia.conf|hyprland nvidia-utils
+O|${HOME}/.config/hypr/themes|theme.conf wallbash.conf colors.conf|hyprland
 S|${HOME}/.config/systemd|user|systemd
-P|${HOME}/.local/state/hyde|hyprland.conf|hyprland
+O|${HOME}/.local/state/hyde|hyprland.conf|hyprland
 
  Hyde core files -- uwsm 
 S|${HOME}/.config/uwsm|env env-hyprland env.d env-hyprland.d|systemd hyprland uwsm
 
  Hyde core files -- xdg-terminal-exec 
-P|${HOME}/.config|xdg-terminals.list|xdg-utils
+O|${HOME}/.config|xdg-terminals.list|xdg-utils
 
-P|${HOME}/.config/hypr|hyprland.conf|hyprland
+O|${HOME}/.config/hypr|hyprland.conf|hyprland
 S|${HOME}/.local/share|hypr|hyprland
 O|${HOME}/.local/bin|hyde-shell hydectl|hyprland
 S|${HOME}/.config|gtk-3.0|nwg-look
@@ -69,16 +70,16 @@ P|${HOME}/.config/VSCodium/User|settings.json|vscodium
 
  Bar 
 P|${HOME}/.config/waybar|user-style.css config.jsonc theme.css style.css|waybar
-I|${HOME}/.config/waybar|modules styles layouts menus|waybar
+S|${HOME}/.config/waybar|modules styles layouts menus|waybar
 S|${HOME}/.local/share|waybar|waybar
 
  Terminal 
-P|${HOME}/.config|lsd|lsd
-P|${HOME}/.config|fastfetch|fastfetch
+S|${HOME}/.config|lsd|lsd
+S|${HOME}/.config|fastfetch|fastfetch
 O|${HOME}/.local/share/fastfetch/presets|hyde|fastfetch
 
-S|${HOME}/.config/kitty|hyde.conf theme.conf|kitty
-P|${HOME}/.config/kitty|kitty.conf|kitty
+O|${HOME}/.config/kitty|hyde.conf theme.conf|kitty
+O|${HOME}/.config/kitty|kitty.conf|kitty
 
  Shell 
 S|${HOME}/.config/fish|conf.d functions completions|fish
@@ -86,33 +87,33 @@ P|${HOME}/.config/fish|config.fish|fish
 P|${HOME}/.config/starship|starship.toml|starship
 
 
-S|${HOME}|.zshenv|zsh
-S|${HOME}/.config/zsh|.zshenv|zsh
-S|${HOME}/.config/zsh/conf.d|hyde 00-hyde.zsh|zsh
-S|${HOME}/.config/zsh/functions|error-handlers.zsh|zsh 
-S|${HOME}/.config/zsh/functions|fzf.zsh|zsh fzf
-S|${HOME}/.config/zsh/functions|duf.zsh|zsh duf
-S|${HOME}/.config/zsh/functions|eza.zsh|zsh eza
-S|${HOME}/.config/zsh/functions|bat.zsh|zsh bat
-S|${HOME}/.config/zsh/completions|fzf.zsh|zsh fzf
-S|${HOME}/.config/zsh/completions|hydectl.zsh|zsh
+O|${HOME}|.zshenv|zsh
+O|${HOME}/.config/zsh|.zshenv|zsh
+O|${HOME}/.config/zsh/conf.d|hyde 00-hyde.zsh|zsh
+O|${HOME}/.config/zsh/functions|error-handlers.zsh|zsh 
+O|${HOME}/.config/zsh/functions|fzf.zsh|zsh fzf
+O|${HOME}/.config/zsh/functions|duf.zsh|zsh duf
+O|${HOME}/.config/zsh/functions|eza.zsh|zsh eza
+O|${HOME}/.config/zsh/functions|bat.zsh|zsh bat
+O|${HOME}/.config/zsh/completions|fzf.zsh|zsh fzf
+O|${HOME}/.config/zsh/completions|hydectl.zsh|zsh
 
-P|${HOME}/.config/zsh|.zshrc user.zsh prompt.zsh plugin.zsh|zsh
-P|${HOME}/.config/zsh|.p10k.zsh|zsh zsh-theme-powerlevel10k
+O|${HOME}/.config/zsh|.zshrc user.zsh prompt.zsh plugin.zsh|zsh
+O|${HOME}/.config/zsh|.p10k.zsh|zsh zsh-theme-powerlevel10k
 
 
  Vim 
-P|${HOME}/.config/vim|vimrc|vim
+O|${HOME}/.config/vim|vimrc|vim
 S|${HOME}/.config/vim/colors|wallbash.vim|vim
 S|${HOME}/.config/vim|hyde.vim|vim
 
  File Explorer 
-P|${HOME}/.local/state|dolphinstaterc|dolphin
-P|${HOME}/.config|baloofilerc|dolphin
-S|${HOME}/.config/menus|applications.menu|dolphin
-S|${HOME}/.config|dolphinrc|dolphin
-S|${HOME}/.config|kdeglobals|dolphin
-S|${HOME}/.local/share/kio/servicemenus|hydewallpaper.desktop|dolphin
+O|${HOME}/.local/state|dolphinstaterc|dolphin
+O|${HOME}/.config|baloofilerc|dolphin
+O|${HOME}/.config/menus|applications.menu|dolphin
+O|${HOME}/.config|dolphinrc|dolphin
+O|${HOME}/.config|kdeglobals|dolphin
+O|${HOME}/.local/share/kio/servicemenus|hydewallpaper.desktop|dolphin
 S|${HOME}/.local/share/kxmlgui5|dolphin|dolphin
 S|${HOME}/.local/share|dolphin|dolphin
 
@@ -138,11 +139,11 @@ S|${HOME}/.config|wlogout|wlogout
 
  Lock Screen 
 S|${HOME}/.config|swaylock|swaylock-effects
-P|${HOME}/.config/hypr|hyprlock.conf|hyprlock
+O|${HOME}/.config/hypr|hyprlock.conf|hyprlock
 S|${HOME}/.config/hypr|hyprlock|hyprlock
 
  Idle daemon 
-P|${HOME}/.config/hypr|hypridle.conf|hypridle
+O|${HOME}/.config/hypr|hypridle.conf|hypridle
 
  Helix 
 S|${HOME}/.config|helix|helix

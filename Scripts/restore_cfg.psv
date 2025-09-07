@@ -77,6 +77,9 @@ S|${HOME}/.local/share|waybar|waybar
 S|${HOME}/.config|lsd|lsd
 S|${HOME}/.config|fastfetch|fastfetch
 O|${HOME}/.local/share/fastfetch/presets|hyde|fastfetch
+S|${HOME}|.ssh|git
+S|${HOME}|Projects|git
+O|${HOME}|.gitconfig|git
 
 O|${HOME}/.config/kitty|hyde.conf theme.conf|kitty
 O|${HOME}/.config/kitty|kitty.conf|kitty

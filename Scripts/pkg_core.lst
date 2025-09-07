@@ -53,7 +53,10 @@ libnotify                                              # for notifications
 
 # --------------------------------------------------- // Fonts
 noto-fonts
+cozette-otb
+ttf-cascadia-code-nerd
 ttf-fantasque-nerd
+ttf-firacode-nerd
 noto-fonts-cjk
 ttf-koruri
 noto-fonts-emoji                                       # emoji

@@ -151,3 +151,6 @@ O|${HOME}/.config/hypr|hypridle.conf|hypridle
 
  Helix 
 S|${HOME}/.config|helix|helix
+
+ Paru 
+O|${HOME}/.config/paru|paru.conf|paru

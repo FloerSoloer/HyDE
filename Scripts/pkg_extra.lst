@@ -31,6 +31,7 @@ ungoogled-chromium-bin
 code
 meld                                                 # git diff & merge tool
 lazygit
+scooter
 neovim                                               # vim based text editor
 vim
 

@@ -25,3 +25,9 @@ C-g = [
     ":redraw",
     ":reload-all"
 ]
+C-r = [
+    ":write-all",
+    ":insert-output scooter --no-stdin >/dev/tty",
+    ":redraw",
+    ":reload-all"
+]

@@ -31,6 +31,8 @@ C-r = [
     ":redraw",
     ":reload-all"
 ]
+X = "select_line_above"
+x = "select_line_below"
 
 [keys.normal.space]
 e = [

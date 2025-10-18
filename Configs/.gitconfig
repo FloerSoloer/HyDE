@@ -54,7 +54,11 @@
 [core]
 	editor = helix
 [diff]
-	tool = vscode
+	tool = meld
+[difftool]
+    prompt = false
+[difftool "meld"]
+    cmd = meld "$LOCAL" "$REMOTE"
 [difftool "vscode"]
 	cmd = code --wait --diff $LOCAL $REMOTE
 [filter "lfs"]
@@ -64,6 +68,10 @@
 	required = true
 [init]
 	defaultBranch = main
+[merge]
+    tool = meld
+[mergetool "meld"]
+    cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
 
 [commit]
 	gpgsign = true

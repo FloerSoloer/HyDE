@@ -29,6 +29,7 @@ cava                                                   # audio visualizer
 firefox
 ungoogled-chromium-bin
 code
+meld                                                 # git diff & merge tool
 neovim                                               # vim based text editor
 vim
 

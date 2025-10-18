@@ -32,6 +32,7 @@ code
 meld                                                 # git diff & merge tool
 lazygit
 scooter
+yazi
 neovim                                               # vim based text editor
 vim
 

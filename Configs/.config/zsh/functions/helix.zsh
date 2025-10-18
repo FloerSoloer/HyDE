@@ -1,0 +1,3 @@
+if command -v "helix" &>/dev/null; then
+  alias hx='helix'
+fi

@@ -52,7 +52,7 @@
 	wl = w list
 	wroot = "!git w --porcelain | rg '^worktree .*/.bare$' | head -n 1 | sed 's:^worktree ::; s:/.bare$::'"
 [core]
-	editor = code --wait
+	editor = helix
 [diff]
 	tool = vscode
 [difftool "vscode"]

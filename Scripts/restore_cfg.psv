@@ -100,6 +100,7 @@ O|${HOME}/.config/zsh/functions|fzf.zsh|zsh fzf
 O|${HOME}/.config/zsh/functions|duf.zsh|zsh duf
 O|${HOME}/.config/zsh/functions|eza.zsh|zsh eza
 O|${HOME}/.config/zsh/functions|bat.zsh|zsh bat
+O|${HOME}/.config/zsh/functions|helix.zsh|zsh helix
 O|${HOME}/.config/zsh/completions|fzf.zsh|zsh fzf
 O|${HOME}/.config/zsh/completions|hydectl.zsh|zsh
 

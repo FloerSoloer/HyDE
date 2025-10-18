@@ -30,6 +30,7 @@ firefox
 ungoogled-chromium-bin
 code
 meld                                                 # git diff & merge tool
+lazygit
 neovim                                               # vim based text editor
 vim
 

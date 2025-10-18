@@ -1,6 +1,5 @@
 if command -v "eza" &>/dev/null; then
-    alias l='eza -lh --icons=auto' \
-        ll='eza -lha --icons=auto --sort=name --group-directories-first' \
-        ld='eza -lhD --icons=auto' \
-        lt='eza --icons=auto --tree'
+  alias l='eza -aF --group-directories-first' \
+    ll='eza -abloF --group-directories-first --no-filesize --time-style long-iso' \
+    lt='eza -a --group-directories-first -T -L'
 fi

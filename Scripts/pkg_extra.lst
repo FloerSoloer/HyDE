@@ -40,6 +40,7 @@ vim
 bat|zsh                                                  # enhanced version of cat
 eza|zsh                                                  # file lister for zsh
 duf|zsh                                                  # prettier version of df for zsh
+zoxide|zsh
 
 # --------------------------------------------------- // Backends
 #electron                                              # electron backend

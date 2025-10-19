@@ -14,6 +14,7 @@ if [[ ${HYDE_ZSH_NO_PLUGINS} != "1" ]]; then
     #  OMZ Plugins 
     # manually add your oh-my-zsh plugins here
     plugins=(
+        "asdf"
         "fzf-tab"
         "sudo"
         "zoxide"

@@ -40,6 +40,7 @@ vim
 # --------------------------------------------------- // zsh
 # oh-my-zsh-git|zsh                                      # Optional plugin manager for zsh
 # zsh-theme-powerlevel10k-git|zsh                        # Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
+asdf-vm|zsh
 bat|zsh                                                  # enhanced version of cat
 eza|zsh                                                  # file lister for zsh
 duf|zsh                                                  # prettier version of df for zsh

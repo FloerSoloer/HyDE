@@ -156,3 +156,7 @@ S|${HOME}/.config|helix|helix
 
  Paru 
 O|${HOME}/.config/paru|paru.conf|paru
+
+ xdg-desktop-portal 
+O|${HOME}/.config/xdg-desktop-portal|portals.conf|xdg-desktop-portal-termfilechooser-hunkyburrito-git
+O|${HOME}/.config/xdg-desktop-portal-termfilechooser|config|xdg-desktop-portal-termfilechooser-hunkyburrito-git

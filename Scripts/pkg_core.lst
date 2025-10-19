@@ -43,6 +43,7 @@ wl-kbptr
 polkit-gnome                                           # authentication agent
 xdg-desktop-portal-hyprland                            # xdg desktop portal for hyprland
 xdg-desktop-portal-gtk                                 # file picker and dbus  integration
+xdg-desktop-portal-termfilechooser-hunkyburrito-git
 xdg-user-dirs                                          # Manage user directories like ~/Desktop and ~/Music
 pacman-contrib                                         # for system update check
 parallel                                               # for parallel processing

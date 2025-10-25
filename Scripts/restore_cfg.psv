@@ -161,3 +161,6 @@ O|${HOME}/.config/paru|paru.conf|paru
 O|${HOME}/.config/xdg-desktop-portal|portals.conf|xdg-desktop-portal-termfilechooser-hunkyburrito-git
 O|${HOME}/.config/xdg-desktop-portal-termfilechooser|config|xdg-desktop-portal-termfilechooser-hunkyburrito-git
 O|${HOME}/.config|mimeapps.list|xdg-desktop-portal
+
+ Yazi 
+S|${HOME}/.config|yazi|yazi

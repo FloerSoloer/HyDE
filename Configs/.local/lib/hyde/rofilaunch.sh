@@ -49,7 +49,7 @@ f | --filebrowser)
 r | --run)
     r_mode="run"
     rofi_config="${ROFI_LAUNCH_RUN_STYLE:-$rofi_config}"
-    rofi_args+=("-run-command" "app2unit.sh  --fuzzel-compat -- {cmd}")
+    rofi_args+=("-run-command" "app2unit.sh -T --hold -- {cmd}")
     rofi_args+=("${ROFI_LAUNCH_RUN_ARGS[@]:-}")
     ;;
 h | --help)

@@ -164,3 +164,6 @@ O|${HOME}/.config|mimeapps.list|xdg-desktop-portal
 
  Yazi 
 S|${HOME}/.config|yazi|yazi
+
+ asdf 
+O|${HOME}|.asdfrc|asdf-vm

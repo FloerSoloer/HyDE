@@ -42,6 +42,10 @@ dragon-drop-git
 yazi
 neovim                                               # vim based text editor
 vim
+obs-studio
+obs-vkcapture
+lib32-obs-vkcapture
+obs-plugin-input-overlay-bin
 
 # --------------------------------------------------- // Shell
 # --------------------------------------------------- // zsh

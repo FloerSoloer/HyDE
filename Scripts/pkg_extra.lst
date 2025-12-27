@@ -26,6 +26,7 @@ gamemode                                               # daemon and library for 
 mangohud                                               # system performance overlay
 gamescope                                            # micro-compositor for gaming
 # lutris                                               # Lutris is an open source gaming platform for Linux
+r2modman-bin                                           # mod manager
 
 # --------------------------------------------------- // Music
 cava                                                   # audio visualizer

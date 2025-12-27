@@ -9,6 +9,12 @@ ddcui                                                  # GUI to control brightne
 # hyprgui-bin                                          # GUI for hyprland configuration // might mess your userprefs but convenient // Just disappeared
 # power-profiles-daemon                                # for managing power profiles from waybar
 
+# --------------------------------------------------- // Hardware Monitors
+amdgpu_top
+btop
+glances
+radeontop
+
 # --------------------------------------------------- // Misc
 wf-recorder                                          # Screen recorder for wlroots-based compositors such as sway
 # emote                                                # emoji picker gtk3

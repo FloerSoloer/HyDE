@@ -82,7 +82,6 @@ qt6-wayland                                            # wayland support in qt6
 zen-browser-bin                                        # browser
 kitty                                                  # terminal
 dolphin                                                # kde file manager
-ark                                                    # kde file archiver
 unzip                                                  # extracting zip files
 helix                                                  # terminal ide
 nwg-displays                                           # monitor management utility
